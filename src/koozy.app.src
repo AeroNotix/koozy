@@ -1,0 +1,9 @@
+{application, koozy,
+ [{description, "Zookeeper process groups"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {env, []},
+  {mod, {koozy_app, []}},
+  {applications, [kernel,
+                  stdlib,
+                  erlzk]}]}.
